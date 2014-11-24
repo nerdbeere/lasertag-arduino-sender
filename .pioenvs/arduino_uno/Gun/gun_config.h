@@ -1,0 +1,5 @@
+#define BUTTON_PIN 7
+#define LED_PIN 2
+#define AMMO_IN_MAG 20
+#define RELOAD_TIME_IN_MS 3000
+#define TIME_BETWEEN_SHOTS_IN_MS 200
