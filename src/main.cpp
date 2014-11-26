@@ -47,7 +47,7 @@ void printAmmo() {
 * Warning: The maximum HP can't be over 999
 */
 void printHealth() {
-    lcd.setCursor(15, 0);
+    lcd.setCursor(17, 0);
     int hp = health.getHealth();
 
     if(hp < 10) {
@@ -96,7 +96,7 @@ void setupLcd() {
 
     lcd.print("Mag:");
 
-    lcd.setCursor(11, 0);
+    lcd.setCursor(13, 0);
     lcd.print("HP:");
 }
 
